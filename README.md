@@ -22,6 +22,10 @@ Include `🔞` before the category name. All the channels in the category will b
 
 It basically works like if NSFW categories were official. The only difference is that you have to write `🔞` before the category name instead of toggling a switch.
 
+# Legal
+
+- [Terms of Service](docs/TERMS_OF_SERVICE.md)
+- [Privacy Policy](docs/PRIVACY_POLICY.md)
 
 # Additional info
 
