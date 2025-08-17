@@ -35,3 +35,8 @@ It basically works like if NSFW categories were official. The only difference is
 
 
 #### Add the bot here: https://discord.bots.gg/bots/987366356808773642
+
+# Legal
+
+* [Terms of Service](docs/TERMS_OF_SERVICE.md)
+* [Privacy Policy](docs/PRIVACY_POLICY.md)
