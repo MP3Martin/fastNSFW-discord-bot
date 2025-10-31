@@ -9,7 +9,7 @@
   "author": "MP3Martin",
   "license": "GPL-3.0",
   "dependencies": {
-    "discord.js": "^13.17.1",
+    "discord.js": "^14.8.0",
     "@discordjs/rest": "^1.7.1"
   }
 }
