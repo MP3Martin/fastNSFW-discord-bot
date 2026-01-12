@@ -1,23 +1,17 @@
-const { SlashCommandBuilder } = require('@discordjs/builders');
-const { MessageEmbed } = require('discord.js');
+const { SlashCommandBuilder } = require('discord.js');
+const { EmbedBuilder } = require('discord.js');
 
 module.exports = {
   data: new SlashCommandBuilder()
     .setName('help')
     .setDescription('Get bot info and features'),
-  async execute (interaction, client) {
-    // const backTick = '`';
+  async execute(interaction, client) {
     const serverIcon = interaction.guild.iconURL();
-    // interaction.reply(`Hello World!\nMessage id: ${backTick}${interaction.id}${backTick}`);
 
-    console.log(serverIcon);
-
-    const exampleEmbed = new MessageEmbed()
+    const exampleEmbed = new EmbedBuilder()
       .setColor('#0099ff')
-      // .setTitle('**Help Menu**')
       .setDescription('Bot commands and features')
       .setThumbnail(serverIcon)
-      // .setURL('https://discord.gg/W4MjVCwMjh')
       .setAuthor({ name: 'Help Menu' })
       .addFields(
         {
@@ -40,7 +34,7 @@ module.exports = {
         { name: '\u200B', value: '[Invite Me!](https://discord.bots.gg/bots/987366356808773642) | [Support Server](https://discord.com/invite/VGGxCg2)' }
       )
       .setTimestamp()
-      .setFooter('fastNSFW BOT by MP3Martin');
+      .setFooter({ text: 'fastNSFW BOT by MP3Martin' });
     interaction.reply({ embeds: [exampleEmbed] });
   }
 };

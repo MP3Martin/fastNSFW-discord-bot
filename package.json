@@ -9,7 +9,9 @@
   "author": "MP3Martin",
   "license": "GPL-3.0",
   "dependencies": {
-    "discord.js": "^13.17.1",
-    "@discordjs/rest": "^1.7.1"
-  }
+    "@discordjs/rest": "^2.6.0",
+    "discord-api-types": "^0.38.37",
+    "discord.js": "^14.25.1"
+  },
+  "packageManager": "yarn@4.12.0"
 }
